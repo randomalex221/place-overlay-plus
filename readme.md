@@ -1,6 +1,9 @@
-# Overlay
+# Overlay Plus
 ### Was ist das Overlay?
 Das Overlay zeigt dir an, wo falsche Pixel sind, damit du richtige setzen kannst. Es setzt keine Pixel für dich.
+Was unterscheidet dieses Overlay vom normalen?
+   - "Neue" Overlay-Optionen: kleine Pixel, große Pixel oder das Originalbild
+   - Neuer Slider für die Transparenz des ganzen Canvas (roter Slider) unter dem Slider für die Tranzparenz des Overlays (grüner Slider)
 
 Direktlinks:  
 [Installation](#overlay-installieren)  
@@ -26,8 +29,8 @@ Direktlinks:
 
 
 4. Anschließend auf einen der folgenden Links klicken, um das jeweilige Overlay zu installieren, Tampermonkey sollte sich automatisch öffnen (wenn du dich nicht entscheiden kannst, findest du die Unterschiede [hier](#wie-funktioniert-das-overlay)):
-   - [Normales Overlay](https://github.com/PlaceDE-Official/place-overlay/raw/main/src/scripts/placeDE-overlay.user.js)  
-   - [Erweitertes Overlay](https://github.com/PlaceDE-Official/place-overlay/raw/main/src/scripts/advanced_overlay.user.js)
+   - [Normales Overlay](https://github.com/randomalex221/place-overlay-plus/raw/main/src/scripts/placeDE-overlay.user.js)  
+   - [Erweitertes Overlay](https://github.com/randomalex221/place-overlay-plus/raw/refs/heads/main/src/scripts/advanced_overlay.user.js)
 
 5. Nun drückt ihr in Tampermonkey nur noch auf "Updaten" oder "Neu installieren".  
 Das Ganze sieht dann in Tampermonkey (abhängig von der gewählten Variante) ungefähr so aus:
