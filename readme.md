@@ -5,6 +5,7 @@ Das Overlay zeigt dir an, wo falsche Pixel sind, damit du richtige setzen kannst
 #### Was unterscheidet dieses Overlay vom normalen?
    - "Neue" Overlay-Optionen: kleine Pixel, große Pixel oder das Originalbild
    - Neuer Slider für die Transparenz des ganzen Canvas (roter Slider) unter dem Slider für die Tranzparenz des Overlays (grüner Slider)
+   - Screenshot-Button default aus, kann über Konsole aktiviert werden
    - Gerade ist nur das "advanced" Overlay bearbeitet, das normale ist unverändert
 
 Direktlinks:  
