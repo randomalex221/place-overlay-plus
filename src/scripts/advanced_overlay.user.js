@@ -157,7 +157,8 @@ addEventListener('load', () => {
 
 	let oState = {
 		opacity: 100,
-		overlayIdx: 0
+		overlayIdx: 0,
+		screenshotButtonVisible: false
 	};
 
 	const oStateStorage = localStorage.getItem(STORAGE_KEY);
@@ -342,12 +343,13 @@ addEventListener('load', () => {
 		'Screenshot',
 		exportScreenshot
 	);
-    document.querySelector('.ao-button').style.display = 'none';
+    document.querySelector('.ao-button').style.display = oState.screenshotButtonVisible ? 'flex' : 'none';;
 
     window.toggleScreenshotButton = () => {
         const btn = document.querySelector('.ao-button');
         if (!btn) return;
-        btn.style.display = btn.style.display === 'none' ? 'flex' : 'none';
+		oState.screenshotButtonVisible = !oState.screenshotButtonVisible;
+        btn.style.display = oState.screenshotButtonVisible ? 'flex' : 'none';
     };
 
 
