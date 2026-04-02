@@ -1,9 +1,11 @@
 # Overlay Plus
 ### Was ist das Overlay?
 Das Overlay zeigt dir an, wo falsche Pixel sind, damit du richtige setzen kannst. Es setzt keine Pixel für dich.
-Was unterscheidet dieses Overlay vom normalen?
+
+#### Was unterscheidet dieses Overlay vom normalen?
    - "Neue" Overlay-Optionen: kleine Pixel, große Pixel oder das Originalbild
    - Neuer Slider für die Transparenz des ganzen Canvas (roter Slider) unter dem Slider für die Tranzparenz des Overlays (grüner Slider)
+   - Gerade ist nur das "advanced" Overlay bearbeitet, das normale ist unverändert
 
 Direktlinks:  
 [Installation](#overlay-installieren)  
