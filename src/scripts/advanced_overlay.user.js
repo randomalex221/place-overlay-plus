@@ -3,12 +3,12 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.0
 // @description  Script that adds a button to toggle an hardcoded image shown in the 2026's r/tyles canvas
-// @author       max-was-here and placeDE Devs
+// @author       max-was-here, random.alex and placeDE Devs
 // @match        https://tyles.place/*
 // @match        https://tyles.place
 // @icon         https://www.redditstatic.com/desktop2x/img/favicon/favicon-32x32.png
-// @updateURL    https://github.com/PlaceDE-Official/place-overlay/raw/main/src/scripts/advanced_overlay.user.js
-// @downloadURL  https://github.com/PlaceDE-Official/place-overlay/raw/main/src/scripts/advanced_overlay.user.js
+// @updateURL    https://github.com/randomalex221/place-overlay-plus/raw/refs/heads/main/src/scripts/advanced_overlay.user.js
+// @downloadURL  https://github.com/randomalex221/place-overlay-plus/raw/refs/heads/main/src/scripts/advanced_overlay.user.js
 // @grant        none
 // @run-at       document-start
 // ==/UserScript==
