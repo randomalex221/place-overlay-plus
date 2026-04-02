@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         [random.alex] r/tyles 2026 Extended Plus
 // @namespace    http://tampermonkey.net/
-// @version      1.1
+// @version      1.1.1
 // @description  Script that adds a button to toggle an hardcoded image shown in the 2026's r/tyles canvas
 // @author       max-was-here, random.alex and placeDE Devs
 // @match        https://tyles.place/*
