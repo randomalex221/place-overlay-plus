@@ -57,7 +57,6 @@ const AO_STYLE = `
     justify-content: center;
     flex-direction: column;
     width: 44px;
-    height: 132px;
     background-color: #ddd;
     color: #000;
     font-family: var(--garlic-bread-font-pixel);
@@ -871,16 +870,6 @@ addEventListener('load', () => {
     let lowerSlider = document.querySelectorAll('.ao-opacity-slider')[1];
     lowerSlider.classList.remove('ao-opacity-slider');
     lowerSlider.classList.add('ao-opacity2-slider');
-	addSlider(
-		'Overlay Opacity',
-		0,
-		100,
-		oState.opacity,
-		changeOpacity,
-		`
-        <svg fill="#000000" viewBox="0 0 32.00 32.00" id="icon" xmlns="http://www.w3.org/2000/svg" data-darkreader-inline-fill="" style="--darkreader-inline-fill: var(--darkreader-background-000000, #000000);" transform="rotate(0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><defs><style>.cls-1{fill:none;}</style><style class="darkreader darkreader--sync" media="screen"></style></defs><title>opacity</title><rect x="6" y="6" width="4" height="4"></rect><rect x="10" y="10" width="4" height="4"></rect><rect x="14" y="6" width="4" height="4"></rect><rect x="22" y="6" width="4" height="4"></rect><rect x="6" y="14" width="4" height="4"></rect><rect x="14" y="14" width="4" height="4"></rect><rect x="22" y="14" width="4" height="4"></rect><rect x="6" y="22" width="4" height="4"></rect><rect x="14" y="22" width="4" height="4"></rect><rect x="22" y="22" width="4" height="4"></rect><rect x="18" y="10" width="4" height="4"></rect><rect x="10" y="18" width="4" height="4"></rect><rect x="18" y="18" width="4" height="4"></rect><rect id="_Transparent_Rectangle_" data-name="&lt;Transparent Rectangle&gt;" class="cls-1" width="32" height="32"></rect></g></svg>
-      `
-	);
 
 	const changeMonitorOpacity = (e) => {
 		oState.monitorOpacity = e.target.value;
